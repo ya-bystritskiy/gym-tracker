@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD5A8E072C20BF9B008E325A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5A8E062C20BF9B008E325A /* Storyboard.storyboard */; };
 		FDAC2B782B15CD53003DCBA4 /* gym_trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC2B772B15CD53003DCBA4 /* gym_trackerApp.swift */; };
 		FDAC2B7A2B15CD53003DCBA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC2B792B15CD53003DCBA4 /* ContentView.swift */; };
 		FDAC2B7C2B15CD53003DCBA4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC2B7B2B15CD53003DCBA4 /* Item.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD5A8E062C20BF9B008E325A /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		FDAC2B742B15CD53003DCBA4 /* gym-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gym-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAC2B772B15CD53003DCBA4 /* gym_trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gym_trackerApp.swift; sourceTree = "<group>"; };
 		FDAC2B792B15CD53003DCBA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				FDAC2B772B15CD53003DCBA4 /* gym_trackerApp.swift */,
 				FDAC2B792B15CD53003DCBA4 /* ContentView.swift */,
+				FD5A8E062C20BF9B008E325A /* Storyboard.storyboard */,
 				FDAC2B7B2B15CD53003DCBA4 /* Item.swift */,
 				FDAC2B7D2B15CD54003DCBA4 /* Assets.xcassets */,
 				FDAC2B7F2B15CD54003DCBA4 /* gym_tracker.entitlements */,
@@ -238,6 +241,7 @@
 			files = (
 				FDAC2B822B15CD54003DCBA4 /* Preview Assets.xcassets in Resources */,
 				FDAC2B7E2B15CD54003DCBA4 /* Assets.xcassets in Resources */,
+				FD5A8E072C20BF9B008E325A /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
