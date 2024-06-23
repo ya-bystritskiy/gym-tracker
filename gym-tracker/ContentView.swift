@@ -11,6 +11,23 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
+    
+
+    struct ContentView: View {
+        var body: some View {
+            VStack {
+                // Ваши элементы интерфейса здесь
+            }
+            .background(Color.blue) // Установка цвета фона
+        }
+    }
+
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+    }
+
 
     var body: some View {
         NavigationSplitView {
@@ -60,7 +77,4 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
-}
+
